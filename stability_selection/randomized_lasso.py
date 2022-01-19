@@ -18,7 +18,7 @@ from scipy import sparse
 from scipy.sparse import issparse
 
 from sklearn.linear_model import LogisticRegression, Lasso
-from sklearn.linear_model.base import _preprocess_data
+from sklearn.linear_model._base import _preprocess_data
 from sklearn.utils import check_X_y, check_random_state
 
 __all__ = ['RandomizedLogisticRegression', 'RandomizedLasso']
